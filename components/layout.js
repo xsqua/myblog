@@ -17,7 +17,7 @@ export default function Layout({ children,home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
+              src="/myblog/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
